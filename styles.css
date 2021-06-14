@@ -1,0 +1,178 @@
+/* ******************** */
+/* Body Tags */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* ******************** */
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* ******************** */
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* ******************** */
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ******************** */
+/* Nav Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1.125rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* ******************** */
+/* Title Section */
+.title-section {
+  text-align: left;
+}
+
+.title-container {
+  padding: 3% 15% 7%;
+}
+
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* ******************** */
+/* Features */
+.features-section {
+  position: relative;
+}
+
+.features-box {
+  padding: 4.4%;
+}
+
+.features-icon {
+  color: #ef8172;
+  padding-bottom: 1.25rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+/* ******************** */
+/* Testimonials */
+.testimonials-section {
+  background-color: #ef8172;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  margin: 1.25rem;
+  width: 10%;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ******************** */
+/* Press */
+.press-section {
+  background-color: #ef8172;
+  padding: 0 3% 3%;
+}
+
+.press-logo {
+  margin: 1.25rem 1.25rem 3.125rem;
+  width: 15%;
+}
+
+/* ******************** */
+/* Pricing */
+.pricing-section {
+  padding: 6.25rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ******************** */
+/* Footer */
+.footer-icon {
+  padding: 0 1rem 1.25rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  padding-top: 0.9375rem;
+}
+
+/* ******************** */
+/* Media Queries */
+@media (max-width: 1028px) {
+  .title-section {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
