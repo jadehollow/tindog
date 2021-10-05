@@ -1,4 +1,4 @@
-<h1 align="center">Tindig 🐶</h1>
+<h1 align="center">Tindog 🐶</h1>
 
 <p align="center">
 </a>
